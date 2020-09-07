@@ -4,7 +4,6 @@
 # cd to project 
 # flutter pub get 
 
-# for more 
 A new Flutter project.
 
 ## Getting Started
