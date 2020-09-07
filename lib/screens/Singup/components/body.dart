@@ -10,6 +10,7 @@ import 'package:souq_app/screens/Singup/components/or_divider.dart';
 import 'package:souq_app/screens/Singup/components/social_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:souq_app/screens/home/home.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -36,7 +37,14 @@ class Body extends StatelessWidget {
             RoundedPasswordField(onChanged: (value) {}),
             RoundedButton(
               text: "Signup",
-              press: () {},
+              press: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) {
+                      return HomeScreen();
+                    })
+                    );
+              },
             ),
             SizedBox(height: size.height * 0.02),
             AlreadyHaveAnAccountCheck(
