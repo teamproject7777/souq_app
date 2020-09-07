@@ -1,5 +1,10 @@
 # souq_app
 
+1- git clone https://github.com/teamproject7777/souq_app.git
+2- cd to project 
+3- flutter pub get 
+
+# for more 
 A new Flutter project.
 
 ## Getting Started
